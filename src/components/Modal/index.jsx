@@ -8,7 +8,7 @@ const Modal = ( { isOpen, children, setIsOpen }) => {
     if (isOpen !== modalStatus) {
       setModalStatus(isOpen)
     }
-  }, [isOpen, setModalStatus])
+  }, [isOpen, modalStatus])
 
   return (
     <ReactModal
