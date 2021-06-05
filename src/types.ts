@@ -1,3 +1,4 @@
+
 export interface IFood {
   id: number,
   name: string,
@@ -8,5 +9,5 @@ export interface IFood {
 }
 export interface IModal {
   isOpen: boolean,
-  setIsOpen: () => void,
+  setIsOpen: () => void
 }
