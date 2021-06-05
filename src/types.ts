@@ -6,3 +6,7 @@ export interface IFood {
   available: boolean
   image: string,
 }
+export interface IModal {
+  isOpen: boolean,
+  setIsOpen: () => void,
+}

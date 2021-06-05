@@ -5,11 +5,9 @@ import { Form } from './styles';
 import Modal from '../Modal';
 import Input from '../Input';
 
-import { IFood } from '../../types';
+import { IFood, IModal } from '../../types';
 
-interface ModalEditFoodProps {
-  isOpen: boolean,
-  setIsOpen: () => void,
+interface ModalEditFoodProps extends IModal {
   editingFood: IFood,
   handleUpdateFood: (food: IFood) => void,
 }
