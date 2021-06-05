@@ -15,6 +15,14 @@
       "description": "Um delicioso gelatto de chocolate belga, cremosíssimo para você se deliciar.",
       "available": true,
       "id": 3
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3cTZxgFP3JsLCnHerAntUUYSB4QRHGnz-zUh4rj3Rw-hEaaAh3KiaDgyimo7dipsC0kU&usqp=CAU",
+      "name": "Banana Split",
+      "price": "35.00",
+      "description": "Uma deliciosa banana split com 3 sabores diferentes.",
+      "available": true,
+      "id": 4
     }
   ]
 }
